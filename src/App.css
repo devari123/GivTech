@@ -13,19 +13,33 @@
   }
 }
 
+/*rgb(9, 145, 224)*/
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(to bottom, #282828, black);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #0ad443;
+}
+
+.App-title {
+  color: rgb(9, 145, 224);
+  font-size: 115px;
+  margin: 10% 0% 0%;
+  padding: 0px;
+}
+
+.App-button {
+  background-color: #ffff;
+  height: 50px;
+  width: 100px;
+  box-shadow: none;
 }
 
 @keyframes App-logo-spin {
